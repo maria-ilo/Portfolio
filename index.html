@@ -1,0 +1,622 @@
+﻿<!-- <?php
+	if(array_key_exists('register', $_POST)) {
+
+		$to = "info@charlesodii.com";
+		$subject = $_POST['subject'];
+		$txt = $_POST['firstname']. " " . $_POST['lastname'] . nl2br($_POST['message']);
+		$headers = "From: " . $_POST['email'] . "\r\n";
+        mail($to,$subject,$txt,$headers);
+    echo "<script> 
+      alert('Message Sent')
+    </script>";
+	}
+
+
+?> -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Mary Agbo | My Resume</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="iloblog.com">
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/utilities.css">
+
+		<link rel="stylesheet" href="assets/css/custom.css">
+
+		<link rel="stylesheet" href="assets/css/slick.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/vegas.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/featherlight.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/featherlight.gallery.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/fontawesome/all.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700%7CMRoboto:300,400,500,700display=swap" rel="stylesheet">
+
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	</head>
+	<body>
+
+		<div id="preloader" class="preloader">
+			<div class="loader-status">
+				<div class="spinner"></div>
+			</div>
+		</div>
+
+		<div class="site-container">
+
+			<div id="top"></div>
+
+			<!-- Mobile logo -->
+			<a href="#home" class="mobile-logo mobile-logo-light bg-dark scrollto">
+				<span>Mary Agbo</span>
+			</a>
+
+			<!-- Navigation toggle -->
+			<button type="button" id="navigation-toggle" class="nav-toggle nav-toggle-light bg-dark">
+				<span></span>
+			</button>
+
+			<!-- Site header -->
+			<header class="site-header site-header-light bg-dark">
+				<div class="header-inner">
+					<div class="header-brand">
+						<!-- Logo -->
+						<a href="#home" class="logo scrollto">
+							<span>Mary Agbo</span>
+							<span class="title-letter text-white opacity-10">M</span>
+						</a>
+					</div>
+					<div class="nav-divider mb-5"></div>
+					<nav class="site-nav">
+						<ul id="navigation">
+							<li>
+								<a href="#home" class="scrollto">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="scrollto">About</a>
+							</li>
+							<!-- <li>
+								<a href="#services" class="scrollto">Services</a>
+							</li> -->
+							<li>
+								<a href="#portfolio" class="scrollto">Portfolio</a>
+							</li>
+							<!-- <li>
+								<a href="#news" class="scrollto">News</a>
+							</li> -->
+							<li>
+								<a href="#contact" class="scrollto">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="nav-divider my-5"></div>
+					<nav>
+						<ul class="list-inline text-center">
+							<li class="list-inline-item">
+								<a class="btn btn-sm btn-icon btn-outline-white btn-transparent rounded-circle" href="https://web.facebook.com/agbo.mary.5">
+									<span class="btn-icon-inner fab fa-facebook-f"></span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-sm btn-icon btn-outline-white btn-transparent rounded-circle" href="https://www.instagram.com/awesome_ilo/">
+									<span class="btn-icon-inner fab fa-instagram"></span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-sm btn-icon btn-outline-white btn-transparent rounded-circle" href="https://twitter.com/marie_ilo">
+									<span class="btn-icon-inner fab fa-twitter"></span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-sm btn-icon btn-outline-white btn-transparent rounded-circle" href="https://iloblog.com/">
+									<span class="btn-icon-inner fa fa-globe"></span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-sm btn-icon btn-outline-white btn-transparent rounded-circle" href="https://www.linkedin.com/in/mary-agbo/">
+									<span class="btn-icon-inner fab fa-linkedin"></span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<!-- Header overlay -->
+			<div class="header-overlay">
+				<div class="overlay-inner bg-dark opacity-80"></div>
+			</div>
+
+			<!-- Back to top button -->
+			<button type="button" id="backtotop" class="btn btn-primary btn-icon">
+				<span class="btn-icon-inner fas fa-angle-up"></span>
+			</button>
+
+			<!-- Page wrapper -->
+			<div class="page-wrapper">
+				<div id="page-cover" class="page-cover">
+					<div class="page-cover-wrapper-fixed">
+						<div class="page-cover-bg">
+							<div class="overlay-inner bg-image-holder bg-cover">
+								<img src="assets/images/bg_cover.jpg" alt="background">
+							</div>
+							<div class="overlay-inner bg-primary opacity-85"></div>
+						</div>
+						<div class="page-cover-wrap">
+
+							<section id="home" class="d-flex mh-100vh">
+								<div class="container align-self-center text-white text-center">
+									<div class="u-avatar u-avatar-5x u-avatar-md-6x u-avatar-lg-7x u-avatar-modern u-avatar-rounded-circle mx-auto mb-4">
+										<img src="assets/images/mary-agbo.jpg" alt="">
+									</div>
+									<h1 class="mb-2 mb-lg-3">Mary Agbo</h1>
+									<p class="lead mb-0">Frontend Developer</p>
+									<span class="cover-letter letter-xl text-white opacity-10">M</span>
+								</div>
+							</section>
+
+						</div>
+					</div>
+				</div><!--end .page-cover -->
+
+				<div class="page-content">
+
+					<section id="about">
+						<div class="container">
+							<div class="section-title h2 text-center mb-5">
+								<h2 class="mb-0">About Me</h2>
+								<span class="title-letter">A</span>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-lg-4 d-none d-lg-block">
+									<img class="img-fluid w-100 rounded" src="assets/images/mary_agbo.jpg" alt="">
+								</div>
+								<div class="col-lg-8">
+									<h3>Mary Agbo</h3>
+									<p class="lead">Frontend Developer</p>
+									<p class="mb-5">I am a motivated and self-determined individual with willingness to take on new responsibilities and face challenges ahead. A quick learner always committed to assigned tasks and codes of practice.</p>
+									<div class="row mb-5">
+										<div class="col-md-6 mb-5 mb-md-0">
+											<h4 class="mb-4">Education</h4>
+											<p class="h5">Dalewares Institute of technology</p>
+											<p>Palmgrove, Lagos State, 2014-2016</p>
+											<p class="h5">Aptech Computer Education</p>
+											<p>Enugu, Enugu State, 2020</p>
+										</div>
+
+										<div class="col-md-6">
+											<h4 class="mb-4">Certificates</h4>
+											<p class="h5">Ordinary National Diploma</p>
+											<p>(CGPA 4.03 Upper Credit)</p>
+											<p class="h5">Certificate on Frontend Development</p>
+											<p>Aptech Certification</p>
+										</div>
+									</div>
+									<a href="https://docs.google.com/document/d/e/2PACX-1vR7Mcam8rnjbkunCLlxvvG-C94e_52f1IWAWroXCKBgQ_vsL9TZdwE0IMQRzNYggwcdjsnLAg7DL5N3/pub" class="btn btn-primary">Download CV</a>
+									<a href="#contact" class="btn btn-light scrollto">Send Message</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section id="skills" class="bg-light">
+						<div class="container">
+							<div class="row mb-5">
+								<div class="col-lg-10 col-xl-8 mx-lg-auto text-center">
+									<div class="section-title h2 mb-3">
+										<h2 class="mb-0">Skills</h2>
+										<span class="title-letter">S</span>
+									</div>
+									<p>Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 mb-4 mb-md-0">
+									<p class="h6 mb-1">HTML, CSS, Bootstrap & Wordpress</p>
+									<div class="progress mb-4 rounded-0" style="height:5px">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<p class="h6 mb-1">Good skills in Graphic Design, Microsoft Word and Power Point</p>
+									<div class="progress rounded-0" style="height:5px">
+										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<p class="h6 mb-1">Effective writing and oral communication</p>
+									<div class="progress mb-4 rounded-0" style="height:5px">
+										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<p class="h6 mb-1">Interpersonal skills</p>
+									<div class="progress rounded-0" style="height:5px">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section id="experience" class="pb-0">
+						<div class="container">
+							<div class="section-title h2 text-center mb-5">
+								<h2 class="mb-0">Experience</h2>
+								<span class="title-letter">E</span>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-4 mb-1 mb-lg-0">
+									<p class="h5">I.T Personnel (Head of I.T and Support Department)</p>
+									<p class="opacity-75">J. Bendeb Sylmar Associates Ltd, 2017 – 2019</p>
+								</div>
+								<div class="col-lg-8">
+									<p>
+											• Design and Maintenance of company’s website <br>
+											• Maintenance of office equipment like computer, software and Printers<br>
+											• Built the website for Lagos State Independent Petroleum Marketers conference for the year 2018 <br>
+											• Built the website for Lagos State Oil and Gas Downstream Safety Conference. <br>
+											• Member of the IT team for the Lagos State IEHSE Conference. <br>
+											• Company’s Representative for the Lagos State Safety Commission Construction and Manufacturing Summit. <br>
+											• Delegation of IT duties among my team members <br>
+											• Maintenance of company’s social media handles <br>
+											• Submit Report and also handle budget for the IT Department.
+									</p>
+								</div>
+							</div>
+
+							<hr/>
+
+							<div class="row">
+								<div class="col-lg-4 mb-1 mb-lg-0">
+									<p class="h5">I.T Personnel</p>
+									<p class="opacity-75">My Pancho Incorporated, 2017</p>
+								</div>
+								<div class="col-lg-8">
+									<p>
+										• Building of clients’ website <br>
+										• Maintenance of company’s website. <br>
+										• Attending to International/Local clients and responding to their request. <br>
+										• Training of new employees on the company’s standard. <br>
+										• Training of customers on the usage of their website
+									</p>
+								</div>
+							</div>
+
+							<hr/>
+
+							<div class="row">
+								<div class="col-lg-4 mb-1 mb-lg-0">
+									<p class="h5">I.T Personnel</p>
+									<p class="opacity-75">Lekki Computer Institute, 2016 - 2017</p>
+								</div>
+								<div class="col-lg-8">
+									<p>
+										• Building of clients’ website <br>
+										• Maintenance of company’s website. <br>
+										• Attending to customers’ needs and solving of IT problems. <br>
+										• Training of new employees on the company’s standard. <br>
+										• Training of customers on the usage of their website <br>
+										• Training of students on Web Design, Microsoft Office etc.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section id="portfolio">
+						<div class="container">
+							<div class="row mb-5">
+								<div class="col-lg-10 col-xl-8 mx-lg-auto text-center">
+									<div class="section-title h2 mb-3">
+										<h2 class="mb-0">Portfolio</h2>
+										<span class="title-letter">P</span>
+									</div>
+									<nav class="portfolio-filter isotope-filter">
+										<ul class="justify-content-center">
+											<li><a href="#" class="active" data-filter="*">All</a></li>
+											<li><a href="#" data-filter=".web">Wordpress</a></li>
+											<li><a href="#" data-filter=".brand">Bootstrap</a></li>
+											<li><a href="#" data-filter=".design">Design</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="portfolio-container isotope-container row my-n2 mx-sm-n2">
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 web">
+									<div class="portfolio-item details-inside">
+										<a href="https://stsophiaandstephanieschools.com/">
+											<div class="item-media">
+												<img src="assets/images/sssophia.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details">
+												<h4 class="h5">St. Sophia and Stephanie Schools</h4>
+												<p class="font-italic">Wordpress</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 web">
+									<div class="portfolio-item details-inside">
+										<a href="https://wistraledgegroup.com/">
+											<div class="item-media">
+												<img src="assets/images/wistraledge.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details">
+												<h4 class="h5">Wistraledge Group</h4>
+												<p class="font-italic">Wordpress</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 web">
+									<div class="portfolio-item details-inside">
+										<a href="https://orbit-rayssolutions.com.ng/">
+											<div class="item-media">
+												<img src="assets/images/orbitrays.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">Orbit-Rays Solutions</h4>
+												<p class="font-italic">Wordpress</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 web design">
+									<div class="portfolio-item details-inside">
+										<a href="venemsglobalsolutions.com.ng">
+											<div class="item-media">
+												<img src="assets/images/venem.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">Venems Global Solutions</h4>
+												<p class="font-italic">Wordpress</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 web">
+									<div class="portfolio-item details-inside">
+										<a href="www.florexcareevents.com">
+											<div class="item-media">
+												<img src="assets/images/florexcare.PNG" alt="">
+												</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">Florex Care Events</h4>
+												<p class="font-italic">Wordpress</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 brand">
+									<div class="portfolio-item details-inside">
+										<a href="https://www.fluxtechafrica.com">
+											<div class="item-media">
+												<img src="assets/images/flux.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">Flux Technology Africa</h4>
+												<p class="font-italic">Bootstrap</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 brand">
+									<div class="portfolio-item details-inside">
+										<a href="https://mymuse1.000webhostapp.com/mymuse/">
+											<div class="item-media">
+												<img src="assets/images/mymuse.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">MyMuse</h4>
+												<p class="font-italic">Bootstrap</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 brand">
+									<div class="portfolio-item details-inside">
+										<a href="https://mymuse1.000webhostapp.com/techkee/src/index.html">
+											<div class="item-media">
+												<img src="assets/images/techkee.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">TechKee</h4>
+												<p class="font-italic">Bootstrap</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="isotope-item col-sm-6 col-lg-4 py-2 px-sm-2 brand">
+									<div class="portfolio-item details-inside">
+										<a href="https://www.charlesodii.com">
+											<div class="item-media">
+												<img src="assets/images/charles.PNG" alt="">
+											</div>
+											<div class="item-overlay bg-dark"></div>
+											<div class="item-details text-white">
+												<h4 class="h5">Charles Odii</h4>
+												<p class="font-italic">Bootstrap</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div><!-- .portfolio-container end -->
+						</div>
+					</section>
+
+					
+					<section id="contact">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 mx-lg-auto">
+									<div class="row mb-5">
+										<div class="col-lg-8 mx-lg-auto text-center">
+											<div class="section-title h2 mb-3">
+												<h2 class="mb-0">Contact</h2>
+												<span class="title-letter">C</span>
+											</div>
+											<p>Learning to code gave me problem-solving skills and a way to communicate with others on a technical level.</p>
+										</div>
+									</div>
+									<div class="row mb-5">
+										<div class="col-md-4 mb-5 mb-md-0">
+											<div class="feature-block">
+												<div class="feature-icon text-primary mb-4">
+													<div class="mx-auto">
+														<i class="ti-mobile"></i>
+													</div>
+												</div>
+												<p class="text-center">(+234) 8178670514, <br/>
+												(+234) 7034422384</p>
+											</div>
+										</div>
+
+										<div class="col-md-4 mb-5 mb-md-0">
+											<div class="feature-block">
+												<div class="feature-icon text-primary mb-4">
+													<div class="mx-auto">
+														<i class="ti-location-pin"></i>
+													</div>
+												</div>
+												<p class="text-center">2, Sunday Ejiofor Street, Blue House Bus-Stop, Lekki-Epe Expressway, Lagos.
+													</p>
+											</div>
+										</div>
+
+										<div class="col-md-4">
+											<div class="feature-block">
+												<div class="feature-icon text-primary mb-4">
+													<div class="mx-auto">
+														<i class="ti-email"></i>
+													</div>
+												</div>
+												<p class="text-center"><a href="mailto:support@example.com" class="text-dark">adaclare22@gmail.com</a><br/>
+												<a href="mailto:hello@example.com" class="text-dark">mary@iloblog.com</a></p>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="contact-form">
+										<form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post" autocomplete="off">
+											<div class="form-row">
+												<div class="form-process"></div>
+
+												<div class="col-12 col-md-6">
+													<div class="form-group error-text-white">
+														<input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control required">
+													</div>
+												</div>
+
+												<div class="col-12 col-md-6">
+													<div class="form-group error-text-white">
+														<input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control required">
+													</div>
+												</div>
+
+												<div class="col-12">
+													<div class="form-group error-text-white">
+														<input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control">
+													</div>
+												</div>
+
+												<div class="col-12 mb-4">
+													<div class="form-group error-text-white">
+														<textarea name="cf-message" id="cf-message" placeholder="Here goes your message" class="form-control required" rows="7"></textarea>
+													</div>
+												</div>
+
+												<div class="col-12 d-none">
+													<input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control" />
+												</div>
+
+												<div class="col-12 text-center">
+													<button class="btn btn-primary" type="submit" id="cf-submit" name="cf-submit">Send Message</button>
+												</div>
+											</div>
+										</form>
+										<div class="contact-form-result text-center"></div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Site footer -->
+					<!-- <footer class="site-footer bg-light">
+						<div class="container">
+							<nav class="mb-3">
+								<ul class="list-inline text-center">
+									<li class="list-inline-item">
+										<a class="btn btn-sm btn-icon btn-outline-dark btn-transparent rounded-circle" href="#">
+											<span class="btn-icon-inner fab fa-facebook-f"></span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="btn btn-sm btn-icon btn-outline-dark btn-transparent rounded-circle" href="#">
+											<span class="btn-icon-inner fab fa-instagram"></span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="btn btn-sm btn-icon btn-outline-dark btn-transparent rounded-circle" href="#">
+											<span class="btn-icon-inner fab fa-twitter"></span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="btn btn-sm btn-icon btn-outline-dark btn-transparent rounded-circle" href="#">
+											<span class="btn-icon-inner fab fa-pinterest"></span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+							<p class="text-center">© 2020 Mary Agbo - All Rights Reserved</p>
+						</div>
+					</footer> -->
+
+				</div><!--end .page-content -->
+			</div><!-- end .page-wrapper -->
+
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="assets/js/jquery.validate.min.js"></script>
+		<script src="assets/js/jquery.form.min.js"></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/jquery.detect_swipe.min.js"></script>
+		<script src="assets/js/featherlight.min.js"></script>
+		<script src="assets/js/featherlight.gallery.min.js"></script>
+		<script src="assets/js/granim.min.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/vegas.min.js"></script>
+		<script src="assets/js/typed.min.js"></script>
+
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
